@@ -70,7 +70,7 @@ public class Polynomial {
      */
     public double evaluate(double x) {
         double result = 0;
-        int degree = list.size() - 1;
+        int degree = list.size() - 1;//power of the x?
 
         for (int i = 0; i < list.size(); i++) {
             result += list.get(i) * Math.pow(x, degree - i);
